@@ -1,0 +1,15 @@
+html {
+  background-color: #FF00EB;
+  font-family: as;
+  font-size: 30em;
+  overflow: hidden;
+  color: #E5FF84;
+}
+
+@font-face {
+  font-family: as;
+  font-weight: 90;
+  font-style: normal;
+  src: url("../fonts/AUTHENTICSans-90.woff2") format("woff2");
+  font-display: swap;
+}
