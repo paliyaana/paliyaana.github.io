@@ -1,9 +1,9 @@
 html {
-  background-color: #FF00EB;
+  background-color: white;
   font-family: as;
-  font-size: 30em;
+  font-size: 5em;
   overflow: hidden;
-  color: #E5FF84;
+  color: white;
 }
 
 @font-face {
