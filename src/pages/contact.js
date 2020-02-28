@@ -28,12 +28,10 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`white`}
         >
-          <div style={{ color: `lightcyan` }}>
           <br/>
-          <h2>polina.business</h2>
-          </div>
-          <p>welcome to my website</p>
-          <Link to="/contact/">contact</Link>
+          <p>polina (at) polina.business</p>
+          <p>helsinki, finland</p>
+          <Link to="/">back</Link>
           <br/>
           <br/><br/>
           <br/><br/>
