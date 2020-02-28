@@ -28,15 +28,11 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`white`}
         >
-          <div style={{ color: `lightcyan` }}>
-          <br/>
           <p>polina.business</p>
-          </div>
           <p>welcome to my website</p>
+          <div style={{ fontSize: `3em` }}>
           <Link to="/contact/">contact</Link>
-          <br/>
-          <br/><br/>
-          <br/><br/>
+          </div>
         </BackgroundImage>
       )
     }}
@@ -46,7 +42,7 @@ const BackgroundSection = ({ className }) => (
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100%;
   height: 100%;
-  background-position: bottom center;
+  background-position: left;
   background-repeat: repeat-y;
   background-size: cover;
 `

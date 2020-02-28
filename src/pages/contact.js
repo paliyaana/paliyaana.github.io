@@ -28,13 +28,11 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`white`}
         >
-          <br/>
           <p>paliyaana@gmail.com</p>
           <p>helsinki, finland</p>
+          <div style={{ fontSize: `3em` }}>
           <Link to="/">back</Link>
-          <br/>
-          <br/><br/>
-          <br/><br/>
+          </div>
         </BackgroundImage>
       )
     }}
@@ -44,7 +42,7 @@ const BackgroundSection = ({ className }) => (
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100%;
   height: 100%;
-  background-position: bottom center;
+  background-position: left;
   background-repeat: repeat-y;
   background-size: cover;
 `

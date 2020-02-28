@@ -12,7 +12,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "add-domain": "echo polina.business > public/CNAME",
+    "deploy": "gatsby build && npm run add-domain && gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "^2.19.7",
