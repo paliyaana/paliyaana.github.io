@@ -16,7 +16,7 @@ export default () => (
      <p>polina.business</p>
      <p>welcome to my website</p>
      <div style={{ fontSize: `3em` }}>
-     <Link to="/contact/">contact</Link>
+     <Link to="/contact/" style={{fontWeight: `150`}} >contact</Link>
      </div>
     </span>
     <span id= "shape" class="shapes">

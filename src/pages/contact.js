@@ -16,7 +16,7 @@ export default () => (
      <p>paliyaana@gmail.com</p>
      <p>helsinki, finland</p>
      <div style={{ fontSize: `3em` }}>
-     <Link to="/">back</Link>
+     <Link to="/" style={{fontWeight: `150`}}>back</Link>
      </div>
     </span>
     <span id= "shape" class="shapes">
