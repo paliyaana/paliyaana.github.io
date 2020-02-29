@@ -1,11 +1,10 @@
 body {
   padding: 0;
   margin: 0;
-  font-weight: 90;
   height: 100vh;
   background-color: white;
   font-family: as;
-  font-size: 1.5em;
+  font-size: 2em;
   overflow: hidden;
   color: lightcyan;
 }
@@ -15,14 +14,6 @@ body {
   font-weight: 90;
   font-style: normal;
   src: url("../fonts/AUTHENTICSans-90.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: as;
-  font-weight: 150;
-  font-style: normal;
-  src: url("../fonts/AUTHENTICSans-150.woff2") format("woff2");
   font-display: swap;
 }
 
