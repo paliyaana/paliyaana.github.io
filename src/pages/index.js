@@ -2,8 +2,10 @@ import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
 import { Link } from "gatsby"
 import styled from 'styled-components'
-
+import yourSVG from '../images/shapes.svg'
 import BackgroundImage from 'gatsby-background-image'
+
+const Home = () => <><img src={yourSVG} alt="shapes"/></>
 
 const BackgroundSection = ({ className }) => (
   <StaticQuery
@@ -28,11 +30,14 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`white`}
         >
+          <br/>
           <p>polina.business</p>
           <p>welcome to my website</p>
           <div style={{ fontSize: `3em` }}>
           <Link to="/contact/">contact</Link>
           </div>
+          <Home>
+          </Home>
         </BackgroundImage>
       )
     }}
