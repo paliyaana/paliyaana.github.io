@@ -16,3 +16,19 @@ body {
   src: url("../fonts/AUTHENTICSans-90.woff2") format("woff2");
   font-display: swap;
 }
+
+.background {
+  z-index: 1;
+  position: relative;
+}
+
+.text {
+  z-index: 3;
+  position: absolute;
+}
+
+.shapes {
+  z-index: 2;
+  position: relative;
+  top: 10em;
+}
