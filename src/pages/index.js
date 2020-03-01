@@ -7,13 +7,13 @@ import ShapesSvg from '../images/shapes.svg'
 import BackgroundImage from 'gatsby-background-image'
 
 const Shapes = () => <><ShapesSvg /></>
-const Background = () => <><BackgroundSvg style={{ position: `absolute`, top: `0`}} /></>
+const Background = () => <><BackgroundSvg class="background-image" /></>
 
 export default () => (
-  <div id="parent" class="background">
-   <Background />
-    <span id= "child" class="text">
-     <div style={{ fontSize: `3em` }}>
+  <div id="container">
+    <Background />
+    <span class="text">
+     <div style={{ fontSize: `2.5em` }}>
      <Link to="/">POLINA.BUSINESS</Link>
      <p>/</p>
      <Link to="/art/">ART</Link>
@@ -23,7 +23,7 @@ export default () => (
      </div>
      <p>Welcome to my website.</p>
     </span>
-    <span id= "shape" class="shapes">
+    <span class="shapes">
       <Shapes />
     </span>
   </div>

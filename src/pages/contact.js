@@ -10,10 +10,10 @@ const Shapes = () => <><ShapesSvg /></>
 const Background = () => <><BackgroundSvg style={{ position: `absolute`, top: `0`}} /></>
 
 export default () => (
-  <div id="parent" class="background">
-   <Background />
-    <span id= "child" class="text">
-     <div style={{ fontSize: `3em` }}>
+  <div id="container">
+    <Background />
+    <span class="text">
+     <div style={{ fontSize: `2.5em` }}>
      <Link to="/">POLINA.BUSINESS</Link>
      <p>/</p>
      <Link to="/art/">ART</Link>
@@ -24,7 +24,7 @@ export default () => (
      <p>paliyaana@gmail.com</p>
      <p>Helsinki, FINLAND</p>
     </span>
-    <span id= "shape" class="shapes">
+    <span class="shapes">
       <Shapes />
     </span>
   </div>

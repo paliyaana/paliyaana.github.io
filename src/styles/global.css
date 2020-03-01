@@ -2,11 +2,12 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background-color: white;
+  background-color: black;
   font-family: as;
   font-size: 1.2em;
   overflow: hidden;
   color: white;
+  word-break: break-all;
 }
 
 a:link {
@@ -40,9 +41,8 @@ svg {
   font-display: swap;
 }
 
-.background {
-  z-index: 1;
-  position: relative;
+.background-image {
+  position: absolute;
   height: 100vh;
 }
 
