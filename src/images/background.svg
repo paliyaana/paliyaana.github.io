@@ -7,10 +7,10 @@
 </style>
 <g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1291.3572" y1="1347.7502" x2="389.2773" y2="1084.443" gradientTransform="matrix(1 0 0 -1 0 3284)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1576.3572" y1="1277.7502" x2="674.2772" y2="1014.443" gradientTransform="matrix(1 0 0 -1 0 3284)">
 		<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
 		<stop  offset="1" style="stop-color:#000000"/>
 	</linearGradient>
-	<rect x="-285" y="-70" class="st0" width="3151" height="4013"/>
+	<rect class="st0" width="3151" height="4013"/>
 </g>
 </svg>

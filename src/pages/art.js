@@ -21,8 +21,7 @@ export default () => (
      <Link to="/contact/" align="right">CONTACT</Link>
      <p>/</p>
      </div>
-     <p>paliyaana@gmail.com</p>
-     <p>Helsinki, FINLAND</p>
+     <p>There is no art.</p>
     </span>
     <span id= "shape" class="shapes">
       <Shapes />

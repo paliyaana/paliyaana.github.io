@@ -13,11 +13,15 @@ export default () => (
   <div id="parent" class="background">
    <Background />
     <span id= "child" class="text">
-     <p>polina.business</p>
-     <p>welcome to my website</p>
      <div style={{ fontSize: `3em` }}>
-     <Link to="/contact/">contact</Link>
+     <Link to="/">POLINA.BUSINESS</Link>
+     <p>/</p>
+     <Link to="/art/">ART</Link>
+     <p>/</p>
+     <Link to="/contact/" align="right">CONTACT</Link>
+     <p>/</p>
      </div>
+     <p>Welcome to my website.</p>
     </span>
     <span id= "shape" class="shapes">
       <Shapes />
