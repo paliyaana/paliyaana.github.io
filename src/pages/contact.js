@@ -7,7 +7,7 @@ import ShapesSvg from '../images/shapes.svg'
 import BackgroundImage from 'gatsby-background-image'
 
 const Shapes = () => <><ShapesSvg /></>
-const Background = () => <><BackgroundSvg style={{ position: `absolute`, top: `0`}} /></>
+const Background = () => <><BackgroundSvg class="background-image" /></>
 
 export default () => (
   <div id="container">

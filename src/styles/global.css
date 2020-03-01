@@ -5,7 +5,7 @@ body {
   background-color: black;
   font-family: as;
   font-size: 1.2em;
-  overflow: hidden;
+  overflow-x: hidden;
   color: white;
   word-break: break-all;
 }
@@ -42,8 +42,9 @@ a:active {
 }
 
 .background-image {
-  position: absolute;
-  height: 100vh;
+  position: fixed;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
 .text {
