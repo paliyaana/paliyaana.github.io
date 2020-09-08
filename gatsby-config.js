@@ -8,13 +8,14 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: process.env.GA_TRACKING_ID,
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
+        head: false,
         // Setting this parameter is optional
         anonymize: true,
       },
