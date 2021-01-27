@@ -15,11 +15,6 @@ export default () => (
     <span class="text">
      <div style={{ fontSize: `2.5em` }}>
      <Link to="/">POLINA.BUSINESS</Link>
-     <p>/</p>
-     <Link to="/art/">ART</Link>
-     <p>/</p>
-     <Link to="/contact/" align="right">CONTACT</Link>
-     <p>/</p>
      </div>
      <p>Welcome to my website.</p>
     </span>
