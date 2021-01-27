@@ -3,14 +3,14 @@ body {
   margin:  0;
   height: 100vh;
   background-color: white;
-  font-family: as;
+  font-family: asd;
   font-size: 1.35em;
   overflow-x: hidden;
   overflow-y: hidden;
   color: black;
   word-break: break-all;
   line-height: 0.1em;
-  filter: blur(0.5px);
+  filter: blur(0.1px);
 }
 
 .text {
@@ -27,7 +27,7 @@ body {
 
 @media screen and (min-width: 601px) {
   div.what {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 0.3em;
   }
   span.shapes {
@@ -37,8 +37,8 @@ body {
 
 @media screen and (max-width: 600px) {
   div.what {
-    font-size: 16px;
-    line-height: 0.6em;
+    font-size: 20px;
+    line-height: 0.35em;
   }
   span.shapes {
     top: 10em;
@@ -78,7 +78,7 @@ a:active {
 @font-face {
   font-family: asd;
   font-style: normal;
-  src: url("../fonts/946Latin-Regular2R.woff2") format("woff2");
+  src: url("../fonts/946Latin-Regular3.woff2") format("woff2");
   font-display: swap;
 }
 
