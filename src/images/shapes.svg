@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve" class="yolo">
 <style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
+	.st01{fill:url(#SVGID_1_1);}
 	.st1{fill:url(#SVGID_2_);}
 	.st2{fill:url(#SVGID_3_);}
 	.st3{fill:url(#SVGID_4_);}
@@ -17,13 +17,13 @@
 	.st11{fill:url(#SVGID_12_);}
 	.st12{fill:url(#SVGID_13_);}
 </style>
-<radialGradient id="SVGID_1_" cx="659.6892" cy="184.8067" r="79.7856" gradientUnits="userSpaceOnUse">
+<radialGradient id="SVGID_1_1" cx="603.2775" cy="79.7856" r="79.7856" gradientUnits="userSpaceOnUse">
 	<stop  offset="0.1133" style="stop-color:#DAB8CA"/>
 	<stop  offset="0.4888" style="stop-color:#94875A"/>
 	<stop  offset="0.8613" style="stop-color:#BD8483"/>
 	<stop  offset="1" style="stop-color:#1776A4"/>
 </radialGradient>
-<circle class="st0" cx="659.7" cy="184.8" r="79.8"/>
+<circle class="st01" cx="603.3" cy="79.8" r="79.8"/>
 <radialGradient id="SVGID_2_" cx="1055.5789" cy="264.5923" r="46.3816" gradientUnits="userSpaceOnUse">
 	<stop  offset="0.1133" style="stop-color:#DAB8CA"/>
 	<stop  offset="0.4888" style="stop-color:#94875A"/>
