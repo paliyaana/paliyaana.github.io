@@ -14,15 +14,15 @@ export default () => (
   <span class="background" style = {{ paddingTop: 0 }}>
     <Background />
     </span>
-    <span class="text" style = {{ paddingLeft: 5 }}>
-     <div style = {{ paddingTop: 5 }}>
+    <span class="text" style = {{ marginLeft: 15 }}>
+     <div style = {{ paddingTop: 0 }} class="what">
      <p>SELECT person</p>
      <p style = {{ paddingTop: 25 }}>FROM helsinki</p>
      <p style = {{ paddingTop : 25 }}>WHERE name = polina</p>
-	   AND email = paliyaana@gmail.com
-     <p>AND ig = @paliyaana</p>
-     <p>AND art IN (missing,</p>
-     <p style = {{ marginLeft : 105 }}>
+	   AND  email = paliyaana@gmail.com
+     <p>AND    ig = @paliyaana</p>
+     <p>AND    art IN (missing,</p>
+     <p style = {{ marginLeft : 150 }}>
 		 <p>development,</p>
 		 <p>nonexistent)</p>
      </p>

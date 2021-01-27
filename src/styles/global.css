@@ -3,19 +3,18 @@ body {
   margin:  0;
   height: 100vh;
   background-color: white;
-  font-family: asd;
-  font-size: 1.4em;
+  font-family: as;
+  font-size: 1.35em;
   overflow-x: hidden;
   overflow-y: hidden;
   color: black;
   word-break: break-all;
   line-height: 0.1em;
-  filter: blur(0.1px);
+  filter: blur(0.5px);
 }
 
 .text {
   position: absolute;
-  bottom: 0;
   z-index: 3;
   user-select: none;
   transition: opacity 1s ease-in-out;
@@ -24,6 +23,26 @@ body {
 .text:focus,
 .text:hover {
   opacity: 0%;
+}
+
+@media screen and (min-width: 601px) {
+  div.what {
+    font-size: 30px;
+    line-height: 0.3em;
+  }
+  span.shapes {
+    top: 10em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.what {
+    font-size: 16px;
+    line-height: 0.6em;
+  }
+  span.shapes {
+    top: 10em;
+  }
 }
 
 a:link {
@@ -51,9 +70,8 @@ a:active {
 
 @font-face {
   font-family: as;
-  font-weight: 90;
   font-style: normal;
-  src: url("../fonts/AUTHENTICSans-90.woff2") format("woff2");
+  src: url("../fonts/Graphik-Semibold.woff2") format("woff2");
   font-display: swap;
 }
 
