@@ -16,7 +16,7 @@ export default () => (
     </span>
     <span class="text" style = {{ paddingLeft: 5 }}>
      <div style = {{ paddingTop: 5 }}>
-     <p>SELECT human</p>
+     <p>SELECT person</p>
      <p style = {{ paddingTop: 25 }}>FROM helsinki</p>
      <p style = {{ paddingTop : 25 }}>WHERE name = polina</p>
 	   AND email = paliyaana@gmail.com

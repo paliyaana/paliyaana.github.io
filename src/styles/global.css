@@ -17,6 +17,13 @@ body {
   position: absolute;
   bottom: 0;
   z-index: 3;
+  user-select: none;
+  transition: opacity 1s ease-in-out;
+}
+
+.text:focus,
+.text:hover {
+  opacity: 0%;
 }
 
 a:link {
@@ -68,7 +75,7 @@ a:active {
 }
 
 .shapes {
-  z-index: 4;
+  z-index: 2;
   position: relative;
   top: 3em;
 }
