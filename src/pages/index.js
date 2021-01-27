@@ -11,12 +11,22 @@ const Background = () => <><BackgroundSvg class="background-image" /></>
 
 export default () => (
   <div id="container">
+  <span class="background" style = {{ paddingTop: 0 }}>
     <Background />
-    <span class="text">
-     <div style={{ fontSize: `2.5em` }}>
-     <Link to="/">POLINA.BUSINESS</Link>
+    </span>
+    <span class="text" style = {{ paddingLeft: 5 }}>
+     <div style = {{ paddingTop: 5 }}>
+     <p>SELECT human</p>
+     <p style = {{ paddingTop: 25 }}>FROM helsinki</p>
+     <p style = {{ paddingTop : 25 }}>WHERE name = polina</p>
+	   AND email = paliyaana@gmail.com
+     <p>AND ig = @paliyaana</p>
+     <p>AND art IN (missing,</p>
+     <p style = {{ marginLeft : 125 }}>
+		 <p>development,</p>
+		 <p>nonexistent)</p>
+     </p>
      </div>
-     <p>Welcome to my website.</p>
     </span>
     <span class="shapes">
       <Shapes />

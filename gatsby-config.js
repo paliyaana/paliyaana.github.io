@@ -20,6 +20,7 @@ module.exports = {
         //anonymize: true,
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -47,7 +48,6 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-svg`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-svg`
   ],
 }

@@ -7,11 +7,12 @@
 </style>
 <g>
 	
-		<radialGradient id="SVGID_1_" cx="1619.0579" cy="1642.5" r="1716.354" gradientTransform="matrix(1 0 0 -1 0 3284)" gradientUnits="userSpaceOnUse">
+		<radialGradient id="SVGID_1_" cx="1619.1" cy="1890.5" r="1571.8462" gradientTransform="matrix(1 0 0 -1 0 3532)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="0.5391" style="stop-color:#646464"/>
-		<stop  offset="1" style="stop-color:#000000"/>
+		<stop  offset="0.8659" style="stop-color:#DEDEDE"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
 	</radialGradient>
-	<rect x="-169" class="st0" width="3576.2" height="3283"/>
+	<rect x="-169" class="st0" width="4576.2" height="3483"/>
 </g>
 </svg>

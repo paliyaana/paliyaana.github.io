@@ -1,13 +1,22 @@
 body {
   padding: 0;
-  margin: 0;
+  margin:  0;
   height: 100vh;
-  background-color: black;
-  font-family: as;
-  font-size: 1.2em;
+  background-color: white;
+  font-family: asd;
+  font-size: 1.4em;
   overflow-x: hidden;
-  color: white;
+  overflow-y: hidden;
+  color: black;
   word-break: break-all;
+  line-height: 0.1em;
+  filter: blur(0.1px);
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
 }
 
 a:link {
@@ -41,24 +50,36 @@ a:active {
   font-display: swap;
 }
 
-.background-image {
-  position: fixed;
-  min-height: 100vh;
-  max-width: 100vw;
+@font-face {
+  font-family: asd;
+  font-style: normal;
+  src: url("../fonts/946Latin-Regular4.woff2") format("woff2");
+  font-display: swap;
 }
 
-.text {
-  z-index: 3;
-  position: absolute;
+.background-image {
+  position: fixed;
+  min-height: 200vh;
+  max-width: 100vw;
+  top: -20em;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
 }
 
 .shapes {
   z-index: 2;
   position: relative;
-  top: 10em;
+  top: 3em;
 }
 
 .st01 {
+  animation: asd 55s linear infinite;
+  transform-origin: 70% 70%;
+
+}
+
+.st02 {
   animation: asd 55s linear infinite;
   transform-origin: 70% 70%;
 }
@@ -80,10 +101,40 @@ a:active {
 
 .st4 {
   animation: asd 40s linear infinite;
+  transform-origin: 80% 80%;
+}
+
+.st5 {
+  animation: asd 35s linear infinite;
   transform-origin: 50% 80%;
 }
 
+.st6 {
+  animation: asd 55s linear infinite;
+  transform-origin: 30% 90%;
+}
+
+.st7 {
+  animation: asd 40s linear infinite;
+  transform-origin: 90% 90%;
+}
+
 @keyframes asd {
+  0% {
+    transform: rotate(0) translateY(0);
+    background-position: 0% 50%;
+  }
+  50% {
+    transform: rotate(10deg) translateY(200px);
+    background-position: 50% 50%;
+  }
+  100% {
+    transform: rotate(0);
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes asd2 {
   0% {
     transform: scaleX(1) scaleY(1) rotate(0);
   }
