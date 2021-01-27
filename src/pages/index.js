@@ -22,7 +22,7 @@ export default () => (
 	   AND email = paliyaana@gmail.com
      <p>AND ig = @paliyaana</p>
      <p>AND art IN (missing,</p>
-     <p style = {{ marginLeft : 125 }}>
+     <p style = {{ marginLeft : 105 }}>
 		 <p>development,</p>
 		 <p>nonexistent)</p>
      </p>
