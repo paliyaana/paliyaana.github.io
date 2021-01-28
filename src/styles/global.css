@@ -66,6 +66,7 @@ a:active {
 
 .shapes svg {
   overflow: visible;
+  filter: blur(0.5px);
 }
 
 @font-face {

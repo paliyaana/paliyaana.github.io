@@ -27,8 +27,8 @@ module.exports = {
         name: "polina.business",
         short_name: "polina.b",
         start_url: "/",
-        background_color: "#B400AC",
-        theme_color: "#B400AC",
+        background_color: "#D9B8CA",
+        theme_color: "#D9B8CA",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
