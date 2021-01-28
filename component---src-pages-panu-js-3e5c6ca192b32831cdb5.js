@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{ktXm:function(n,e,a){"use strict";a.r(e);var t=a("q1tI"),o=a.n(t);a("Wbzz");e.default=function(){return o.a.createElement("div",{id:"panu",class:"panu",style:{height:2e3,marginTop:0,border:0,paddingTop:0}},o.a.createElement("p",null,"Onneksi olkoon Panu!"))}}}]);
+//# sourceMappingURL=component---src-pages-panu-js-3e5c6ca192b32831cdb5.js.map
