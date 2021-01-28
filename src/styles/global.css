@@ -43,6 +43,9 @@ body {
   span.shapes {
     top: 10em;
   }
+  .container {
+    width: 200%;
+  }
 }
 
 a:link {
