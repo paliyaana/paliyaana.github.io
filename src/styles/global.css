@@ -25,7 +25,18 @@ body {
   opacity: 0%;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1024px) {
+  div.what {
+    font-size: 30px;
+    line-height: 0.3em;
+  }
+  span.shapes {
+    top: 10em;
+  }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
   div.what {
     font-size: 30px;
     line-height: 0.3em;
@@ -37,14 +48,14 @@ body {
 
 @media screen and (max-width: 600px) {
   div.what {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 0.35em;
-  }
-  span.shapes {
-    top: 10em;
   }
   .container {
     width: 200%;
+  }
+  span.shapes {
+    top: 10em;
   }
 }
 

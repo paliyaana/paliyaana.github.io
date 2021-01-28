@@ -7,6 +7,18 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "polina.business",
+    author: "Polina",
+    description: "I like to my webpages.",
+    siteUrl: "https://polina.business/",
+    social: [
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/paliyaana",
+      }
+    ],
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
