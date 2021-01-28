@@ -17,6 +17,7 @@ export default () => (
     <span class="text" style = {{ marginLeft: 5 }} >
       <div style = {{ paddingTop: 5 }} class="what">
         <p style = {{ paddingTop: 5, marginTop: 0 }}>This page does not exist.</p>
+        <p style = {{ paddingTop: 25 }}><Link to="/">Please leave</Link></p>
         </div>
         </span>
         <span class="shapes">

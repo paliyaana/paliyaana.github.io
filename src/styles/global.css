@@ -59,29 +59,10 @@ body {
   }
 }
 
-a:link {
-  color: #00B9F4;
-  text-decoration: none;
-}
-
 a:visited {
-  color: #00B9F4;
+  color: blue;
 }
 
-a:hover {
-  color: #00B9F4;
-  filter: blur(3px);
-}
-
-a:active {
-  color: #00B9F4;
-  filter: blur(3px);
-}
-
-.shapes svg {
-  overflow: visible;
-  filter: blur(0.5px);
-}
 
 @font-face {
   font-family: as;
@@ -113,8 +94,9 @@ a:active {
   top: 3em;
 }
 
-.yolo {
+.shapes-svg {
   filter: blur(0.1px);
+  overflow: visible;
 }
 
 .st01 {
@@ -203,6 +185,7 @@ a:active {
   }
 }
 
+/*Panun synttärijutut*/
 .panu {
   background-color: #FF60B7;
   font-size: 4em;
