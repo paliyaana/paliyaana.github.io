@@ -19,10 +19,12 @@ export default () => (
         <p style = {{ paddingTop: 5, marginTop: 0 }}>SELECT person</p>
         <p style = {{ paddingTop: 25 }}>FROM helsinki</p>
         <p style = {{ paddingTop : 25 }}>WHERE name = polina</p>
-	      AND  email = paliyaana@gmail.com
-        <p>AND ig = @paliyaana</p>
-        <p>AND art IN (missing,</p>
-        <p style = {{ marginLeft : 150 }} >
+        <p style = {{ marginLeft : 40 }} >
+	       <p>AND email = paliyaana@gmail.com</p>
+         <p>AND ig = @paliyaana</p>
+         <p>AND art IN (missing,</p>
+        </p>
+        <p style = {{ marginLeft : 200 }} >
 		      <p>development,</p>
 		      <p>nonexistent)</p>
         </p>
