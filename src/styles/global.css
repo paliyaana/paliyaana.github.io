@@ -202,3 +202,20 @@ a:active {
     background-position: 0% 50%;
   }
 }
+
+.panu {
+  background-color: #FF60B7;
+  font-size: 4em;
+  word-break: break-word;
+  line-height: normal;
+  animation: mymove 5s infinite ease-in-out;
+  width: 500;
+  height: 500;
+  top: -1em;
+  position: relative;
+}
+
+@keyframes mymove {
+  0% {background-color: #FF60B7;}
+  50% {filter: hue-rotate(360deg);}
+}
