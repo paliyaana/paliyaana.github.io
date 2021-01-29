@@ -10,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: "polina.business",
     author: "Polina",
-    description: "I like to my webpages.",
+    description: "This is my webpage.",
     siteUrl: "https://polina.business/",
     social: [
       {
