@@ -3,7 +3,7 @@ body {
   margin:  0;
   height: 100vh;
   background-color: white;
-  font-family: asd;
+  font-family: "946Latin";
   font-size: 1.35em;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -63,16 +63,8 @@ a:visited {
   color: blue;
 }
 
-
 @font-face {
-  font-family: as;
-  font-style: normal;
-  src: url("../fonts/Graphik-Semibold.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: asd;
+  font-family: "946Latin";
   font-style: normal;
   src: url("../fonts/946Latin-Regular3.woff2") format("woff2");
   font-display: swap;
@@ -183,22 +175,4 @@ a:visited {
     transform: rotate(0);
     background-position: 0% 50%;
   }
-}
-
-/*Panun synttärijutut*/
-.panu {
-  background-color: #FF60B7;
-  font-size: 4em;
-  word-break: break-word;
-  line-height: normal;
-  animation: mymove 5s infinite ease-in-out;
-  width: 500;
-  height: 500;
-  top: -1em;
-  position: relative;
-}
-
-@keyframes mymove {
-  0% {background-color: #FF60B7;}
-  50% {filter: hue-rotate(360deg);}
 }
